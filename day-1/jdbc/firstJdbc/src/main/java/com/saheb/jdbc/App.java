@@ -42,7 +42,7 @@ public class App {
                 statement.close();
             }
 
-        } catch (Exception e) {
+        } catch (SQLException e) {
             System.out.println(e);
         } finally {
             System.out.println("Done");
